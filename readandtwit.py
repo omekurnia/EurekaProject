@@ -234,3 +234,4 @@ def Thread(text, sender_id):
 while True:
     check_media()
     time.sleep(150)
+    

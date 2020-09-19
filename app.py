@@ -29,3 +29,6 @@ def index():
         new_keyword(kword)
 
     return render_template("index.html", kword=kword)
+
+if __name__ == "__main__":
+    app.run()

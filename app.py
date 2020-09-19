@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import tweepy
 from readandtwit import check_media
 from apscheduler.schedulers.background import BackgroundScheduler
+import os
 
 app = Flask(__name__)
 app.secret_key = "secret"

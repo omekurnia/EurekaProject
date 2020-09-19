@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
-import tweepy
-from readandtwit import check_media
+#import tweepy
+#from readandtwit import check_media
 #from apscheduler.schedulers.background import BackgroundScheduler
 import os
 

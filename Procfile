@@ -1,1 +1,1 @@
-worker: python readandtwit.py
+web: gunicorn app:app

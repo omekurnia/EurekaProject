@@ -18,9 +18,15 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-keyword = "eureka!"
 media_keyword = "attachment"
 filename = 'temp.jpg'
+
+def keyword():
+    with open("keyword.txt", "r") as file:
+        keyword = file.read()
+        return keyword
+
+keyword = keyword()
 
 def create_log(reports):
     with open("logfile.txt", "a") as file:

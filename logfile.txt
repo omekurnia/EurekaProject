@@ -1,11 +1,1 @@
----------------
-2020-09-16 03:51:25.214685 : Scanning DM
-                             Checking bad words
-                             No badword
-                             Failed: [Errno 2] No such file or directory: 'last_dm.txt' error
----------------
-2020-09-16 03:52:00.380412 : Scanning DM
-                             Checking bad words
-                             No badword
-                             Checking duplicate
-                             Could not found message with keyword
+
